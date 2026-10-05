@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="C43m9IldFWZS2zYiTe4T">
+    <mxGraphModel dx="572" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lsCOHTe2Jdv88a05Vl13-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=270;height=50;" value="Sistem Informasi&amp;nbsp; Peminjaman dan Pengembalian Peralatan Laboratorium Kampus" vertex="1">
+          <mxGeometry height="650" width="430" x="260" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lsCOHTe2Jdv88a05Vl13-9" parent="lsCOHTe2Jdv88a05Vl13-1" style="ellipse;html=1;whiteSpace=wrap;shadow=1;" value="Lihat Ketersediaan Peralatan&amp;nbsp;" vertex="1">
+          <mxGeometry height="70" width="110" x="40" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="lsCOHTe2Jdv88a05Vl13-11" parent="lsCOHTe2Jdv88a05Vl13-1" style="ellipse;html=1;whiteSpace=wrap;shadow=1;" value="Kelola data Perlengkapan" vertex="1">
+          <mxGeometry height="70" width="110" x="280" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="lsCOHTe2Jdv88a05Vl13-12" edge="1" parent="1" source="lsCOHTe2Jdv88a05Vl13-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" target="lsCOHTe2Jdv88a05Vl13-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lsCOHTe2Jdv88a05Vl13-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Mahasiswa Baddie" vertex="1">
+          <mxGeometry height="60" width="30" x="160" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="lsCOHTe2Jdv88a05Vl13-13" edge="1" parent="1" source="lsCOHTe2Jdv88a05Vl13-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" target="lsCOHTe2Jdv88a05Vl13-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lsCOHTe2Jdv88a05Vl13-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="770" y="325" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
