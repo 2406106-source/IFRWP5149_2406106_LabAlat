@@ -1,0 +1,17 @@
+flowchart LR
+    M[/"Mahasiswa"/]
+    DW[/"Dosen Wali"/]
+
+    subgraph SIA["Sistem Informasi Akademik"]
+        UC03(["SIA-UC03<br/>Ajukan KRS"])
+        UC04(["SIA-UC04<br/>Validasi KRS"])
+        UC05(["SIA-UC05<br/>Unduh Bukti Pengajuan KRS"])
+        UC06(["SIA-UC06<br/>Proses Keputusan KRS"])
+    end
+
+    M --- UC03
+    M --- UC05
+    DW --- UC06
+
+    UC03 -. "<<include>>" .-> UC04
+    UC05 -. "<<extend>><br/>[mahasiswa memilih unduh bukti]" .-> UC03
